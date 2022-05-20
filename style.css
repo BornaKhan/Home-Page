@@ -1,5 +1,5 @@
 body {
- background-image: url("bd.jpg");
+ background-image: url("Web.png");
  background-repeat: no-repeat, repeat;
 background-size: cover;
 background-position: center;
@@ -29,16 +29,25 @@ box-shadow:2px 2px 5px 2px #000000}
 
 .box{background-color:#f4f4f4;
 height:1000px;
-width:45%;
+width:25%;
 font-weight:bold;
 top:200px;
 box-shadow: 2px 2px 5px 2px #000000;
 position:absolute;}
 
-.box1 {background-color:#f4f4f4;
+.box1{background-color:#f4f4f4;
 height:1000px;
-width:45%;
+width:25%;
 right: 10px;
+font-weight:bold;
+top:200px;
+box-shadow: 2px 2px 5px 2px #000000;
+position:absolute;}
+
+.box2 {background-color:#f4f4f4;
+height:1000px;
+width:30%;
+right: 35.5%;
 font-weight:bold;
 top:200px;
 box-shadow: 2px 2px 5px 2px #000000;
@@ -59,10 +68,10 @@ position:absolute;
 }
 .b{ font-size: 30px;
 position:absolute;
-width:100%;
+width:90%;
 
 top:80px;
-left: 30px;
+left: 25px;
 line-height: 170%;
 font-family: Courier;
 
@@ -113,7 +122,7 @@ height:1500px;
 width:50%;
 font-weight:bold;
 top:200px;
-left: 550px;
+left: 500px;
 box-shadow: 2px 2px 5px 2px #000000;
 position: absolute;}
 
@@ -126,17 +135,19 @@ line-height: 170%;
 position: absolute;
 font-family: Courier;}
 
-a:link{color:#ff9e2a}
+a:link{color:#ff1a1a}
 a:hover{color:#ffffff}
 a:hover{background-color:#000000}
 a:hover{font-size:112%}
-
 a:visited {color: #ff1a1a}
+
 a.one{text-decoration:none}
 a.one:link{color:green}
+a.one:visited{color:#6cab5e}
 a.one:hover{font-size:130%}
 a.one:hover{background-color:#5fdce5}
 a{text-decoration:none}
+
 a.two:link{color:purple}
 a.two:{text-decoration:none}
 a.two:hover{color:inherit;}
