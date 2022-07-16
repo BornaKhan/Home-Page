@@ -146,6 +146,10 @@ position:absolute;
 	z-index:9;
 	bottom: 20px
 }
+.mail{position:fixed;
+	right: 10px;
+	z-index:9;
+	bottom: 80px}
 .table{
 text-align: right;
 width: 95%;
