@@ -82,7 +82,8 @@ font-family: Courier;
 color: #ffffff;
 background-color:#7e7e7e;
 width:100%;
-bottom:-1000;
+margin-top:100%;
+margin-right:5px;
 position : absolute;
 height:215px;
 
@@ -106,7 +107,7 @@ font-size:20px;
 color:white;
 background-color:#000000;
 position: absolute;
-bottom:-1000;}
+margin-top:114%;}
 
 
 
@@ -153,6 +154,19 @@ left:25px;
 line-height: 170%;
 position: absolute;
 font-family: Courier;}
+
+.photo{position:absolute;
+	margin-top:82%;
+	margin-left:5%;
+	content: "";
+	  clear: both;
+	    display: table;
+		box-sizing: border-box; 
+		
+  }
+.photocontainer{position:relative;
+	float: left;
+	}
 
 a:link{color:#000000}
 a:hover{color:#ffffff}
